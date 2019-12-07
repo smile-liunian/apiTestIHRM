@@ -1,0 +1,14 @@
+ 2019-12-07 08:27:24,553 INFO [root] [__init__.py(<module>:8)] - test
+ 2019-12-07 08:27:27,056 INFO [root] [test_ihem_login.py(test01_login_success:27)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c8ff8477-eea1-4767-aba3-c46611740442'}
+ 2019-12-07 08:27:27,056 INFO [root] [test_ihem_login.py(test01_login_success:44)] - 保存的登录token和content-type:{'Content-Type': 'application/json', 'Authorization': 'Bearer c8ff8477-eea1-4767-aba3-c46611740442'}
+ 2019-12-07 08:27:27,148 INFO [root] [test_ihem_login.py(test02_mobile_is_error:48)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-07 08:27:27,234 INFO [root] [test_ihem_login.py(test03_password_is_error:53)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-07 08:27:27,323 INFO [root] [test_ihem_login.py(test04_is_none_params:58)] - 登录接口返回数据:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-07 08:27:27,407 INFO [root] [test_ihem_login.py(test05_model_is_none:64)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-07 08:27:27,489 INFO [root] [test_ihem_login.py(test06_password_is_none:69)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-07 08:27:27,581 INFO [root] [test_ihem_login.py(test07_extra_params:75)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '9a2b31da-bef5-4cf2-8b6e-13301423a857'}
+ 2019-12-07 08:27:27,669 INFO [root] [test_ihem_login.py(test08_less_params:80)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-07 08:27:27,813 INFO [root] [test_ihrm_emp_parameterized.py(test01_add_emp:14)] - 添加员工接口返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1203108724449038336'}}
+ 2019-12-07 08:27:27,813 INFO [root] [test_ihrm_emp_parameterized.py(test01_add_emp:26)] - 保存的员工ID:1203108724449038336
+ 2019-12-07 08:27:27,904 INFO [root] [test_ihrm_emp_parameterized.py(test02_query_emp:33)] - 查询员工接口返回的数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1203108724449038336', 'mobile': '13343287419', 'username': '百变小樱03', 'password': 'd0b4521aac15a478a40aa1927ac3835d', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066238836272664576', 'timeOfEntry': '2019-11-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '111', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-29T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '财务部', 'roleIds': [], 'staffPhoto': None}}
+ 2019-12-07 08:27:28,400 INFO [root] [test_ihrm_emp_parameterized.py(test03_modify_emp:62)] - --------查询数据库中员工ID为1203108724449038336的username是:夏目

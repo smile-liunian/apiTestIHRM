@@ -1,0 +1,4 @@
+ 2019-12-04 17:22:08,049 INFO [root] [test_ihem_login.py(test01_login_success:28)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '28c63a82-7471-482c-aebb-3d30f2f4cb69'}
+ 2019-12-04 17:22:08,145 INFO [root] [test_ihem_login.py(test02_mobile_is_error:40)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-04 17:22:08,229 INFO [root] [test_ihem_login.py(test03_password_is_error:45)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-04 17:22:08,319 INFO [root] [test_ihem_login.py(test04_is_none_params:50)] - 登录接口返回数据:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}

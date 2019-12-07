@@ -1,0 +1,123 @@
+ 2019-12-06 09:26:39,145 INFO [root] [__init__.py(<module>:8)] - test
+ 2019-12-06 09:26:40,775 INFO [root] [test_ihem_login.py(test01_login_success:27)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0017a3ee-cfc2-4f2f-a664-55e4dae28787'}
+ 2019-12-06 09:26:40,775 INFO [root] [test_ihem_login.py(test01_login_success:44)] - 保存的登录token和content-type:{'Content-Type': 'application/json', 'Authorization': 'Bearer 0017a3ee-cfc2-4f2f-a664-55e4dae28787'}
+ 2019-12-06 10:09:05,194 INFO [root] [__init__.py(<module>:8)] - test
+ 2019-12-06 10:09:05,590 INFO [root] [test_ihem_login.py(test01_login_success:27)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'd03d81ec-1353-4322-b131-e230c512d90c'}
+ 2019-12-06 10:09:05,590 INFO [root] [test_ihem_login.py(test01_login_success:44)] - 保存的登录token和content-type:{'Content-Type': 'application/json', 'Authorization': 'Bearer d03d81ec-1353-4322-b131-e230c512d90c'}
+ 2019-12-06 10:09:05,686 INFO [root] [test_ihem_login.py(test02_mobile_is_error:48)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:09:05,782 INFO [root] [test_ihem_login.py(test03_password_is_error:53)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:09:05,866 INFO [root] [test_ihem_login.py(test04_is_none_params:58)] - 登录接口返回数据:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 10:09:05,950 INFO [root] [test_ihem_login.py(test05_model_is_none:64)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:09:06,046 INFO [root] [test_ihem_login.py(test06_password_is_none:69)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:09:06,130 INFO [root] [test_ihem_login.py(test07_extra_params:75)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c4602093-574c-4f17-9b5a-2261c611f838'}
+ 2019-12-06 10:09:06,214 INFO [root] [test_ihem_login.py(test08_less_params:80)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:09:06,334 INFO [root] [test_ihrm_emp.py(test01_add_emp:29)] - 添加员工接口返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202771926040530944'}}
+ 2019-12-06 10:19:37,715 INFO [root] [__init__.py(<module>:8)] - test
+ 2019-12-06 10:19:38,028 INFO [root] [test_ihem_login.py(test01_login_success:27)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'be181b24-0381-4efa-badd-f6f886ff1dcd'}
+ 2019-12-06 10:19:38,028 INFO [root] [test_ihem_login.py(test01_login_success:44)] - 保存的登录token和content-type:{'Content-Type': 'application/json', 'Authorization': 'Bearer be181b24-0381-4efa-badd-f6f886ff1dcd'}
+ 2019-12-06 10:19:38,106 INFO [root] [test_ihem_login.py(test02_mobile_is_error:48)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:19:38,200 INFO [root] [test_ihem_login.py(test03_password_is_error:53)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:19:38,278 INFO [root] [test_ihem_login.py(test04_is_none_params:58)] - 登录接口返回数据:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 10:19:38,372 INFO [root] [test_ihem_login.py(test05_model_is_none:64)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:19:38,450 INFO [root] [test_ihem_login.py(test06_password_is_none:69)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:19:38,559 INFO [root] [test_ihem_login.py(test07_extra_params:75)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '55c98c6e-5e0c-416f-9a6a-ff22259f8325'}
+ 2019-12-06 10:19:38,637 INFO [root] [test_ihem_login.py(test08_less_params:80)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:19:38,731 INFO [root] [test_ihrm_emp.py(test01_add_emp:29)] - 添加员工接口返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202774578526769152'}}
+ 2019-12-06 10:19:38,731 INFO [root] [test_ihrm_emp.py(test01_add_emp:42)] - 保存的员工ID:1202774578526769152
+ 2019-12-06 10:51:40,134 INFO [root] [__init__.py(<module>:8)] - test
+ 2019-12-06 10:51:40,462 INFO [root] [test_ihem_login.py(test01_login_success:27)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '8f99113b-f40c-4c91-80ff-5b8756ca70c4'}
+ 2019-12-06 10:51:40,462 INFO [root] [test_ihem_login.py(test01_login_success:44)] - 保存的登录token和content-type:{'Content-Type': 'application/json', 'Authorization': 'Bearer 8f99113b-f40c-4c91-80ff-5b8756ca70c4'}
+ 2019-12-06 10:51:40,541 INFO [root] [test_ihem_login.py(test02_mobile_is_error:48)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:51:40,634 INFO [root] [test_ihem_login.py(test03_password_is_error:53)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:51:40,712 INFO [root] [test_ihem_login.py(test04_is_none_params:58)] - 登录接口返回数据:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 10:51:40,806 INFO [root] [test_ihem_login.py(test05_model_is_none:64)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:51:40,884 INFO [root] [test_ihem_login.py(test06_password_is_none:69)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:51:40,992 INFO [root] [test_ihem_login.py(test07_extra_params:75)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'fc8cf7f1-16b1-434c-b575-83f220e303f8'}
+ 2019-12-06 10:51:41,067 INFO [root] [test_ihem_login.py(test08_less_params:80)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:51:41,172 INFO [root] [test_ihrm_emp.py(test01_add_emp:29)] - 添加员工接口返回数据为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 10:52:06,979 INFO [root] [__init__.py(<module>:8)] - test
+ 2019-12-06 10:52:07,307 INFO [root] [test_ihem_login.py(test01_login_success:27)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'fb314787-80cd-45e2-bd20-17a60ba47503'}
+ 2019-12-06 10:52:07,307 INFO [root] [test_ihem_login.py(test01_login_success:44)] - 保存的登录token和content-type:{'Content-Type': 'application/json', 'Authorization': 'Bearer fb314787-80cd-45e2-bd20-17a60ba47503'}
+ 2019-12-06 10:52:07,385 INFO [root] [test_ihem_login.py(test02_mobile_is_error:48)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:52:07,479 INFO [root] [test_ihem_login.py(test03_password_is_error:53)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:52:07,557 INFO [root] [test_ihem_login.py(test04_is_none_params:58)] - 登录接口返回数据:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 10:52:07,635 INFO [root] [test_ihem_login.py(test05_model_is_none:64)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:52:07,745 INFO [root] [test_ihem_login.py(test06_password_is_none:69)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:52:07,823 INFO [root] [test_ihem_login.py(test07_extra_params:75)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ca981317-c67f-48d7-bdbd-c52e95b24ff0'}
+ 2019-12-06 10:52:07,932 INFO [root] [test_ihem_login.py(test08_less_params:80)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 10:52:08,026 INFO [root] [test_ihrm_emp.py(test01_add_emp:29)] - 添加员工接口返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202782754441613312'}}
+ 2019-12-06 10:52:08,026 INFO [root] [test_ihrm_emp.py(test01_add_emp:42)] - 保存的员工ID:1202782754441613312
+ 2019-12-06 10:52:08,103 INFO [root] [test_ihrm_emp.py(test02_query_emp:49)] - 查询员工接口返回的数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202782754441613312', 'mobile': '138999999992', 'username': '花花03', 'password': '38bbe1e6afbf5847f93f48282b9a415e', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066238836272664576', 'timeOfEntry': '2019-11-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '111', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-29T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '财务部', 'roleIds': [], 'staffPhoto': None}}
+ 2019-12-06 11:11:53,950 INFO [root] [__init__.py(<module>:8)] - test
+ 2019-12-06 11:11:54,278 INFO [root] [test_ihem_login.py(test01_login_success:27)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '14173cda-659c-4ad5-a028-f246938ed857'}
+ 2019-12-06 11:11:54,278 INFO [root] [test_ihem_login.py(test01_login_success:44)] - 保存的登录token和content-type:{'Content-Type': 'application/json', 'Authorization': 'Bearer 14173cda-659c-4ad5-a028-f246938ed857'}
+ 2019-12-06 11:11:54,356 INFO [root] [test_ihem_login.py(test02_mobile_is_error:48)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:11:54,450 INFO [root] [test_ihem_login.py(test03_password_is_error:53)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:11:54,528 INFO [root] [test_ihem_login.py(test04_is_none_params:58)] - 登录接口返回数据:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 11:11:54,622 INFO [root] [test_ihem_login.py(test05_model_is_none:64)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:11:54,700 INFO [root] [test_ihem_login.py(test06_password_is_none:69)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:11:54,793 INFO [root] [test_ihem_login.py(test07_extra_params:75)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '682b2989-ea55-4fb1-8ae1-a6b892830438'}
+ 2019-12-06 11:11:54,887 INFO [root] [test_ihem_login.py(test08_less_params:80)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:11:54,981 INFO [root] [test_ihrm_emp.py(test01_add_emp:29)] - 添加员工接口返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202787732862357504'}}
+ 2019-12-06 11:11:54,981 INFO [root] [test_ihrm_emp.py(test01_add_emp:42)] - 保存的员工ID:1202787732862357504
+ 2019-12-06 11:11:55,075 INFO [root] [test_ihrm_emp.py(test02_query_emp:49)] - 查询员工接口返回的数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202787732862357504', 'mobile': '138999999993', 'username': '花花04', 'password': '912622648a1a2a4f27101cf39cce736f', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066238836272664576', 'timeOfEntry': '2019-11-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '111', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-29T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '财务部', 'roleIds': [], 'staffPhoto': None}}
+ 2019-12-06 11:13:59,559 INFO [root] [__init__.py(<module>:8)] - test
+ 2019-12-06 11:13:59,887 INFO [root] [test_ihem_login.py(test01_login_success:27)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a0127e15-5bfa-4243-985b-3e15af218d38'}
+ 2019-12-06 11:13:59,887 INFO [root] [test_ihem_login.py(test01_login_success:44)] - 保存的登录token和content-type:{'Content-Type': 'application/json', 'Authorization': 'Bearer a0127e15-5bfa-4243-985b-3e15af218d38'}
+ 2019-12-06 11:13:59,965 INFO [root] [test_ihem_login.py(test02_mobile_is_error:48)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:14:00,043 INFO [root] [test_ihem_login.py(test03_password_is_error:53)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:14:00,137 INFO [root] [test_ihem_login.py(test04_is_none_params:58)] - 登录接口返回数据:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 11:14:00,231 INFO [root] [test_ihem_login.py(test05_model_is_none:64)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:14:00,309 INFO [root] [test_ihem_login.py(test06_password_is_none:69)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:14:00,398 INFO [root] [test_ihem_login.py(test07_extra_params:75)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ef002918-c11d-4c82-af1a-3e12612f8ebb'}
+ 2019-12-06 11:14:00,488 INFO [root] [test_ihem_login.py(test08_less_params:80)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:14:00,588 INFO [root] [test_ihrm_emp.py(test01_add_emp:29)] - 添加员工接口返回数据为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 11:14:25,478 INFO [root] [__init__.py(<module>:8)] - test
+ 2019-12-06 11:14:25,775 INFO [root] [test_ihem_login.py(test01_login_success:27)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '8c32d124-e69c-41d3-a475-175fb3620527'}
+ 2019-12-06 11:14:25,775 INFO [root] [test_ihem_login.py(test01_login_success:44)] - 保存的登录token和content-type:{'Content-Type': 'application/json', 'Authorization': 'Bearer 8c32d124-e69c-41d3-a475-175fb3620527'}
+ 2019-12-06 11:14:25,869 INFO [root] [test_ihem_login.py(test02_mobile_is_error:48)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:14:25,962 INFO [root] [test_ihem_login.py(test03_password_is_error:53)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:14:26,056 INFO [root] [test_ihem_login.py(test04_is_none_params:58)] - 登录接口返回数据:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 11:14:26,150 INFO [root] [test_ihem_login.py(test05_model_is_none:64)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:14:26,228 INFO [root] [test_ihem_login.py(test06_password_is_none:69)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:14:26,322 INFO [root] [test_ihem_login.py(test07_extra_params:75)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0006098a-2631-4047-91f1-0aacd956c367'}
+ 2019-12-06 11:14:26,400 INFO [root] [test_ihem_login.py(test08_less_params:80)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:14:26,509 INFO [root] [test_ihrm_emp.py(test01_add_emp:29)] - 添加员工接口返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202788368437825536'}}
+ 2019-12-06 11:14:26,509 INFO [root] [test_ihrm_emp.py(test01_add_emp:42)] - 保存的员工ID:1202788368437825536
+ 2019-12-06 11:14:26,603 INFO [root] [test_ihrm_emp.py(test02_query_emp:49)] - 查询员工接口返回的数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202788368437825536', 'mobile': '138999999995', 'username': '花花05', 'password': 'ebb09ffbe6d54dc1f1f63cf4b4bd82dd', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066238836272664576', 'timeOfEntry': '2019-11-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '111', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-29T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '财务部', 'roleIds': [], 'staffPhoto': None}}
+ 2019-12-06 11:45:43,260 INFO [root] [__init__.py(<module>:8)] - test
+ 2019-12-06 11:45:43,838 INFO [root] [test_ihem_login.py(test01_login_success:27)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '98ac059a-331d-4381-8ea2-b6c204bb33e8'}
+ 2019-12-06 11:45:43,838 INFO [root] [test_ihem_login.py(test01_login_success:44)] - 保存的登录token和content-type:{'Content-Type': 'application/json', 'Authorization': 'Bearer 98ac059a-331d-4381-8ea2-b6c204bb33e8'}
+ 2019-12-06 11:45:43,931 INFO [root] [test_ihem_login.py(test02_mobile_is_error:48)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:45:44,025 INFO [root] [test_ihem_login.py(test03_password_is_error:53)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:45:44,103 INFO [root] [test_ihem_login.py(test04_is_none_params:58)] - 登录接口返回数据:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 11:45:44,197 INFO [root] [test_ihem_login.py(test05_model_is_none:64)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:45:44,291 INFO [root] [test_ihem_login.py(test06_password_is_none:69)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:45:44,369 INFO [root] [test_ihem_login.py(test07_extra_params:75)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'bb188723-0ee3-4c9e-b8d1-ab831bcf9c12'}
+ 2019-12-06 11:45:44,463 INFO [root] [test_ihem_login.py(test08_less_params:80)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:45:44,572 INFO [root] [test_ihrm_emp.py(test01_add_emp:32)] - 添加员工接口返回数据为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 11:52:22,982 INFO [root] [__init__.py(<module>:8)] - test
+ 2019-12-06 11:52:23,341 INFO [root] [test_ihem_login.py(test01_login_success:27)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '58eed6c8-1a25-4e3a-a05d-ea3e4feb6f34'}
+ 2019-12-06 11:52:23,341 INFO [root] [test_ihem_login.py(test01_login_success:44)] - 保存的登录token和content-type:{'Content-Type': 'application/json', 'Authorization': 'Bearer 58eed6c8-1a25-4e3a-a05d-ea3e4feb6f34'}
+ 2019-12-06 11:52:23,435 INFO [root] [test_ihem_login.py(test02_mobile_is_error:48)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:52:23,529 INFO [root] [test_ihem_login.py(test03_password_is_error:53)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:52:23,623 INFO [root] [test_ihem_login.py(test04_is_none_params:58)] - 登录接口返回数据:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 11:52:23,716 INFO [root] [test_ihem_login.py(test05_model_is_none:64)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:52:23,810 INFO [root] [test_ihem_login.py(test06_password_is_none:69)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:52:23,920 INFO [root] [test_ihem_login.py(test07_extra_params:75)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'e24d6417-c0b2-48f9-8077-8cd33d6a32ed'}
+ 2019-12-06 11:52:24,013 INFO [root] [test_ihem_login.py(test08_less_params:80)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:52:24,091 INFO [root] [test_ihrm_emp.py(test01_add_emp:32)] - 添加员工接口返回数据为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 11:52:52,617 INFO [root] [__init__.py(<module>:8)] - test
+ 2019-12-06 11:52:52,945 INFO [root] [test_ihem_login.py(test01_login_success:27)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c16a34b0-0794-4f5e-b786-6077ff30499c'}
+ 2019-12-06 11:52:52,945 INFO [root] [test_ihem_login.py(test01_login_success:44)] - 保存的登录token和content-type:{'Content-Type': 'application/json', 'Authorization': 'Bearer c16a34b0-0794-4f5e-b786-6077ff30499c'}
+ 2019-12-06 11:52:53,054 INFO [root] [test_ihem_login.py(test02_mobile_is_error:48)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:52:53,132 INFO [root] [test_ihem_login.py(test03_password_is_error:53)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:52:53,226 INFO [root] [test_ihem_login.py(test04_is_none_params:58)] - 登录接口返回数据:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+ 2019-12-06 11:52:53,320 INFO [root] [test_ihem_login.py(test05_model_is_none:64)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:52:53,414 INFO [root] [test_ihem_login.py(test06_password_is_none:69)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:52:53,492 INFO [root] [test_ihem_login.py(test07_extra_params:75)] - 登录接口返回数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0b0277a9-b913-4477-9573-b143ea57b4d4'}
+ 2019-12-06 11:52:53,586 INFO [root] [test_ihem_login.py(test08_less_params:80)] - 登录接口返回数据:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+ 2019-12-06 11:52:53,679 INFO [root] [test_ihrm_emp.py(test01_add_emp:32)] - 添加员工接口返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202798049130532864'}}
+ 2019-12-06 11:52:53,679 INFO [root] [test_ihrm_emp.py(test01_add_emp:45)] - 保存的员工ID:1202798049130532864
+ 2019-12-06 11:52:53,773 INFO [root] [test_ihrm_emp.py(test02_query_emp:52)] - 查询员工接口返回的数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202798049130532864', 'mobile': '138999999996', 'username': '花花06', 'password': '9919395c711d06f81e47f88df73c3118', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066238836272664576', 'timeOfEntry': '2019-11-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '111', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-29T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '财务部', 'roleIds': [], 'staffPhoto': None}}
+ 2019-12-06 11:52:54,070 INFO [root] [test_ihrm_emp.py(test03_modify_emp:73)] - --------查询数据库中员工ID为1202798049130532864的username是:奥特曼
